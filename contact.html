@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Assentium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ASSENTIUM</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Nuestra Historia</a></li>
+                <li><a href="players.html">Jugadores</a></li>
+                <li><a href="tournaments.html">Torneos</a></li>
+                <li><a href="donations.html">Donaciones</a></li>
+                <li><a href="socials.html">Redes Sociales</a></li>
+                <li><a href="contact.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title fade-in">Contáctanos</h1>
+            <p class="page-subtitle fade-in-delay">Estamos aquí para escucharte</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="fade-in-scroll" style="text-align: center; margin-bottom: 50px;">
+                <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary);">¿Tienes Alguna Pregunta?</h2>
+                <p style="font-size: 1.1rem; color: var(--text-gray); line-height: 1.8;">
+                    Ya sea para consultas de patrocinio, colaboraciones, reclutamiento o simplemente para saludar, estamos encantados de escucharte. Rellena el formulario y te responderemos lo antes posible.
+                </p>
+            </div>
+
+            <form id="contactForm" class="contact-form fade-in-scroll">
+                <div class="form-group">
+                    <label for="name">Nombre Completo *</label>
+                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Asunto *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Selecciona un asunto</option>
+                        <option value="general">Consulta General</option>
+                        <option value="sponsorship">Patrocinio</option>
+                        <option value="recruitment">Reclutamiento</option>
+                        <option value="collaboration">Colaboración</option>
+                        <option value="media">Medios / Prensa</option>
+                        <option value="other">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje *</label>
+                    <textarea id="message" name="message" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="values-section">
+        <div class="container">
+            <h2 class="section-title fade-in-scroll">Otras Formas de Contacto</h2>
+            <div class="values-grid">
+                <div class="value-card fade-in-scroll">
+                    <div class="value-icon">📧</div>
+                    <h3>Email</h3>
+                    <p style="margin-bottom: 15px;">Contáctanos directamente por email</p>
+                    <a href="mailto:contact@assentium.gg" style="color: var(--primary); text-decoration: none; font-weight: 600;">contact@assentium.gg</a>
+                </div>
+                <div class="value-card fade-in-scroll">
+                    <div class="value-icon">💼</div>
+                    <h3>Business</h3>
+                    <p style="margin-bottom: 15px;">Para consultas de negocios y patrocinios</p>
+                    <a href="mailto:business@assentium.gg" style="color: var(--primary); text-decoration: none; font-weight: 600;">business@assentium.gg</a>
+                </div>
+                <div class="value-card fade-in-scroll">
+                    <div class="value-icon">💬</div>
+                    <h3>Discord</h3>
+                    <p style="margin-bottom: 15px;">Únete a nuestro servidor de Discord</p>
+                    <a href="#" style="color: var(--primary); text-decoration: none; font-weight: 600;">discord.gg/assentium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="content-section" style="background: var(--dark-alt);">
+        <div class="container">
+            <h2 class="section-title fade-in-scroll">Preguntas Frecuentes</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item fade-in-scroll">
+                    <h3 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">¿Cómo puedo unirme al equipo?</h3>
+                    <p style="color: var(--text-gray); line-height: 1.8; margin-bottom: 30px;">
+                        Estamos siempre buscando nuevos talentos. Envíanos un mensaje a través del formulario seleccionando "Reclutamiento" y cuéntanos sobre tu experiencia, estadísticas y qué juegos juegas competitivamente.
+                    </p>
+                </div>
+
+                <div class="faq-item fade-in-scroll">
+                    <h3 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">¿Aceptan patrocinios?</h3>
+                    <p style="color: var(--text-gray); line-height: 1.8; margin-bottom: 30px;">
+                        ¡Absolutamente! Estamos abiertos a colaboraciones con marcas que compartan nuestros valores. Contáctanos a través de business@assentium.gg o el formulario con el asunto "Patrocinio".
+                    </p>
+                </div>
+
+                <div class="faq-item fade-in-scroll">
+                    <h3 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">¿Cuánto tardan en responder?</h3>
+                    <p style="color: var(--text-gray); line-height: 1.8; margin-bottom: 30px;">
+                        Intentamos responder todos los mensajes en un plazo de 24-48 horas. Para consultas urgentes, te recomendamos contactarnos directamente por Discord.
+                    </p>
+                </div>
+
+                <div class="faq-item fade-in-scroll">
+                    <h3 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">¿Organizan eventos para fans?</h3>
+                    <p style="color: var(--text-gray); line-height: 1.8; margin-bottom: 30px;">
+                        Sí, regularmente organizamos eventos en nuestro Discord como watch parties de torneos, sesiones de juego con el equipo y sorteos exclusivos. ¡Únete a nuestra comunidad para no perderte nada!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content fade-in-scroll">
+                <h2>Conecta Con Nosotros</h2>
+                <p>Síguenos en nuestras redes sociales para estar al día de todas las novedades</p>
+                <div class="cta-buttons">
+                    <a href="socials.html" class="btn btn-primary">Nuestras Redes</a>
+                    <a href="donations.html" class="btn btn-secondary">Apoya al Equipo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ASSENTIUM</h3>
+                    <p>La excelencia competitiva</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Nuestra Historia</a></li>
+                        <li><a href="players.html">Jugadores</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">Discord</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                        <a href="#" class="social-icon">Twitch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Assentium Esports. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
